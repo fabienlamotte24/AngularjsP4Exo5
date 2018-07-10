@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exercice 5</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <div ng-app="myApp" ng-controller="myCtrl">
+    <button type="button" name="button" ng-click="hideMe()">Afficher</button>
+    <button type="button" name="button" ng-click="showMe()">Cacher</button>
+    <div ng-hide="text">
+      <p>coucou</p>
+    </div>
+  </div>
+</body>
+</html>
